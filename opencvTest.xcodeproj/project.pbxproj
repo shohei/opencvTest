@@ -11,11 +11,13 @@
 		19A828061D34889D0071B283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A828051D34889D0071B283 /* ViewController.swift */; };
 		19A828081D34889D0071B283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A828071D34889D0071B283 /* Assets.xcassets */; };
 		19A8280B1D34889D0071B283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A828091D34889D0071B283 /* Main.storyboard */; };
-		19A8281E1D348BFA0071B283 /* Detector.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8281C1D348BFA0071B283 /* Detector.m */; };
+		19A8281E1D348BFA0071B283 /* Detector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19A8281C1D348BFA0071B283 /* Detector.mm */; };
 		19A8281F1D348BFA0071B283 /* Detector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A8281D1D348BFA0071B283 /* Detector.xib */; };
 		19A828211D348F410071B283 /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A828201D348F410071B283 /* libopencv_core.2.4.13.dylib */; };
 		19A828241D348F5A0071B283 /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A828221D348F5A0071B283 /* libopencv_highgui.2.4.13.dylib */; };
 		19A828251D348F5A0071B283 /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A828231D348F5A0071B283 /* libopencv_imgproc.2.4.13.dylib */; };
+		19A8282C1D34935D0071B283 /* original.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A8282A1D34935D0071B283 /* original.png */; };
+		19A8282D1D34935D0071B283 /* sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A8282B1D34935D0071B283 /* sign.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +29,13 @@
 		19A8280C1D34889D0071B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19A828121D3488ED0071B283 /* opencvTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencvTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		19A8281B1D348BFA0071B283 /* Detector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detector.h; sourceTree = "<group>"; };
-		19A8281C1D348BFA0071B283 /* Detector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detector.m; sourceTree = "<group>"; };
+		19A8281C1D348BFA0071B283 /* Detector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Detector.mm; sourceTree = "<group>"; };
 		19A8281D1D348BFA0071B283 /* Detector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Detector.xib; sourceTree = "<group>"; };
 		19A828201D348F410071B283 /* libopencv_core.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13/lib/libopencv_core.2.4.13.dylib; sourceTree = "<group>"; };
 		19A828221D348F5A0071B283 /* libopencv_highgui.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13/lib/libopencv_highgui.2.4.13.dylib; sourceTree = "<group>"; };
 		19A828231D348F5A0071B283 /* libopencv_imgproc.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13/lib/libopencv_imgproc.2.4.13.dylib; sourceTree = "<group>"; };
+		19A8282A1D34935D0071B283 /* original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original.png; sourceTree = "<group>"; };
+		19A8282B1D34935D0071B283 /* sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				19A828031D34889D0071B283 /* AppDelegate.swift */,
+				19A8282A1D34935D0071B283 /* original.png */,
+				19A8282B1D34935D0071B283 /* sign.png */,
 				19A828051D34889D0071B283 /* ViewController.swift */,
 				19A8281B1D348BFA0071B283 /* Detector.h */,
-				19A8281C1D348BFA0071B283 /* Detector.m */,
+				19A8281C1D348BFA0071B283 /* Detector.mm */,
 				19A8281D1D348BFA0071B283 /* Detector.xib */,
 				19A828071D34889D0071B283 /* Assets.xcassets */,
 				19A828091D34889D0071B283 /* Main.storyboard */,
@@ -141,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A8282C1D34935D0071B283 /* original.png in Resources */,
+				19A8282D1D34935D0071B283 /* sign.png in Resources */,
 				19A828081D34889D0071B283 /* Assets.xcassets in Resources */,
 				19A8280B1D34889D0071B283 /* Main.storyboard in Resources */,
 				19A8281F1D348BFA0071B283 /* Detector.xib in Resources */,
@@ -154,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A8281E1D348BFA0071B283 /* Detector.m in Sources */,
+				19A8281E1D348BFA0071B283 /* Detector.mm in Sources */,
 				19A828061D34889D0071B283 /* ViewController.swift in Sources */,
 				19A828041D34889D0071B283 /* AppDelegate.swift in Sources */,
 			);
